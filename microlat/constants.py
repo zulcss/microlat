@@ -43,6 +43,7 @@ PACKAGES = [
     "git",
     "bubblewrap",
     "python3-apt",
+    "python3-rich",
     "fuse3",
 ]
 
