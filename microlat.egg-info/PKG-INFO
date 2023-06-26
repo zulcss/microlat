@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: microlat
+Version: 0.0.1
+Summary: Hybrid image/package management system.
+Home-page: https://www.starlingx.io
+Author: StarlingX Developers
+Author-email: starlingx-discuss@lists.starlingx.io
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+License-File: LICENSE
+
+===============================
+microlat
+===============================
+
+Hybrid image/package management system.
+
+Please fill here a long description which must be at least 3 lines wrapped on
+80 cols, so that distribution package maintainers can use it in their packages.
+Note that this is a hard requirement.
+
+* Free software: Apache license
+* Documentation: https://docs.openstack.org/microlat/latest
+* Source: https://opendev.org/openstack/microlat
+* Bugs: https://bugs.launchpad.net/microlat
+
+Features
+--------
+
+* TODO
+
