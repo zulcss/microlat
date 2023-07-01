@@ -44,7 +44,6 @@ PACKAGES = [
     "bubblewrap",
     "python3-apt",
     "python3-rich",
-    "fuse3",
 ]
 
 ARTIFACT = "rootfs.tar.gz"

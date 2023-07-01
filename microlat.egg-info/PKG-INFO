@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: microlat
-Version: 0.0.1
+Version: 0.0.1.dev1
 Summary: Hybrid image/package management system.
 Home-page: https://www.starlingx.io
 Author: StarlingX Developers

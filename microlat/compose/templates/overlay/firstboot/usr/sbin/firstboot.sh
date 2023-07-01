@@ -10,6 +10,9 @@ adduser --gecos User user
 adduser user sudo
 echo "user:user" | chpasswd
 
+mkdir -p /var/lib/apt/lists
+apt-get update
+
 sed -i "s/\#PermitRootLogin prohibit-password/\#PermitRootLogin prohibit-password\nPermitRootLogin Yes\n/" /etc/ssh/sshd_config
 systemctl restart ssh.service
 

@@ -35,7 +35,10 @@ for p in cache:
         files = [file for file in p.installed_files
                  if file.startswith("/var/")
                  and file != "/var/lib/dpkg"
+                 and file != "/var/run"
                  and file != "/var/lock"
+                 and file != "/var/cache"
+                 and file != "/var/spool"
                  and file != "/var/legacy"]
         for file in files:
             path = rootdir.joinpath(file)
