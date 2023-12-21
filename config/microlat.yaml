@@ -8,11 +8,10 @@ actions:
 
     # Customizations that happen before bootstrapping.
     setup-hooks:
-      - 'sync-in overlay/debian/ /'
+    - 'sync-in overlay/debian/ /'
     
     # Customizations that happen after boostrapping.
     customize-hooks:
-      - 'sync-in overlay/adduser/ /'
       - echo 'root:root' | chroot "$1" chpasswd
       - chroot $1 echo "localhost" > $1/etc/hostname
       - systemctl disable --root=$1 apt-daily.timer cron
@@ -20,11 +19,7 @@ actions:
     
     # Packages to install after bootstrapping.
     packages:
-      - linux-image-amd64
-      - firmware-linux
       - sudo
-      - systemd-boot
-      - dracut
       - vim
       - net-tools
       - openssh-client
